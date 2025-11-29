@@ -1,0 +1,134 @@
+[
+  {
+    "id": "item-0",
+    "title": "AHC x TUNEMAKERS 雙12感恩祭",
+    "industry": "美妝個清",
+    "format": "BN",
+    "imageUrl": "https://placehold.co/800x400/818cf8/ffffff.png?text=AHC+x+TUNEMAKERS+%E9%9B%9912%E6%84%9F%E6%81%A9%E7%A5%AD",
+    "description": "AHC x TUNEMAKERS 渡美 12/27-12/31 雙12感恩祭。指定品滿$1212折$121，滿$1399贈AHC雙波精華10ml。數量有限，送完為止。",
+    "date": "2023-12-12",
+    "author": "Designer User",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-1",
+    "title": "Samsung Galaxy S24 Ultra 上市預告",
+    "industry": "3C產品",
+    "format": "BN",
+    "imageUrl": "https://placehold.co/600x400/222222/ffffff.png?text=Galaxy+S24+Ultra",
+    "description": "極致AI體驗，劃時代的通訊革命。預購享好禮，舊換新最高折抵$5000。",
+    "date": "2024-01-15",
+    "author": "Tech Design Team",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-2",
+    "title": "春季旅遊節 - 日本賞櫻攻略",
+    "industry": "旅遊戶外",
+    "format": "EDM",
+    "imageUrl": "https://placehold.co/600x800/ffc0cb/444444.png?text=Japan+Sakura+Trip",
+    "description": "2024日本賞櫻最前線！東京、京都、大阪賞櫻名所一次看。早鳥機票優惠中。",
+    "date": "2024-02-01",
+    "author": "Travel Creative",
+    "heightClass": "row-span-2"
+  },
+  {
+    "id": "item-3",
+    "title": "Nike Air Max Day 2024",
+    "industry": "潮流服飾",
+    "format": "廣告",
+    "imageUrl": "https://placehold.co/600x600/fa5252/ffffff.png?text=Air+Max+Day",
+    "description": "經典重塑，致敬傳奇。全新Air Max系列，感受氣墊科技的極致舒適。",
+    "date": "2024-03-26",
+    "author": "Sport Style Studio",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-4",
+    "title": "健康生活 - 綜合維他命推廣",
+    "industry": "保健/食品",
+    "format": "組圖框",
+    "imageUrl": "https://placehold.co/600x500/82c91e/ffffff.png?text=Health+Vitamins",
+    "description": "每日一顆，補足全方位營養。限時買一送一，守護全家人的健康。",
+    "date": "2024-01-10",
+    "author": "Health Plus",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-5",
+    "title": "Dyson Supersonic 吹風機",
+    "industry": "家電",
+    "format": "BN",
+    "imageUrl": "https://placehold.co/600x400/e03131/ffffff.png?text=Dyson+Hair+Care",
+    "description": "智慧溫控，快速乾髮，呵護秀髮光澤。母親節限定禮盒，寵愛媽咪首選。",
+    "date": "2024-04-20",
+    "author": "Home Appl Design",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-6",
+    "title": "嬰兒有機棉服飾系列",
+    "industry": "母嬰用品",
+    "format": "EDM",
+    "imageUrl": "https://placehold.co/600x750/fff0f6/862e9c.png?text=Organic+Cotton+Baby",
+    "description": "100%有機棉，給寶寶最純淨的呵護。透氣舒適，不僅親膚更環保。",
+    "date": "2023-11-05",
+    "author": "Baby Love",
+    "heightClass": "row-span-2"
+  },
+  {
+    "id": "item-7",
+    "title": "IKEA 居家收納展",
+    "industry": "日用生活",
+    "format": "組圖框",
+    "imageUrl": "https://placehold.co/600x550/fcc419/222222.png?text=Home+Storage",
+    "description": "小空間大利用，打造井然有序的居家環境。百款收納好物，限時優惠中。",
+    "date": "2024-02-28",
+    "author": "Living Design",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-8",
+    "title": "MAC 子彈唇膏新品上市",
+    "industry": "美妝個清",
+    "format": "廣告",
+    "imageUrl": "https://placehold.co/600x600/000000/ffffff.png?text=MAC+Lipstick",
+    "description": "顯色持久，霧面質感。全新12色，展現你的獨特魅力。",
+    "date": "2023-12-01",
+    "author": "Beauty Pro",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-9",
+    "title": "Sony WH-1000XM5 降噪耳機",
+    "industry": "3C產品",
+    "format": "BN",
+    "imageUrl": "https://placehold.co/600x400/ced4da/000000.png?text=Sony+Headphones",
+    "description": "業界領先降噪技術，靜享純淨音質。輕量化設計，長時間佩戴也舒適。",
+    "date": "2024-03-10",
+    "author": "Tech Design Team",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-10",
+    "title": "夏季防曬大作戰",
+    "industry": "美妝個清",
+    "format": "組圖框",
+    "imageUrl": "https://placehold.co/600x500/fd7e14/ffffff.png?text=Sunscreen+Summer",
+    "description": "清爽不黏膩，高係數防曬。戶外活動必備，盡情享受陽光。",
+    "date": "2024-05-01",
+    "author": "Summer Vibes",
+    "heightClass": "row-span-1"
+  },
+  {
+    "id": "item-11",
+    "title": "露營裝備特賣會",
+    "industry": "旅遊戶外",
+    "format": "EDM",
+    "imageUrl": "https://placehold.co/600x850/2f9e44/ffffff.png?text=Camping+Sale",
+    "description": "帳篷、睡袋、露營椅，通通下殺5折起。走進大自然，體驗露營樂趣。",
+    "date": "2023-10-15",
+    "author": "Outdoor Life",
+    "heightClass": "row-span-2"
+  }
+]

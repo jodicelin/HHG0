@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { PortfolioItem, IndustryCategory, FormatCategory } from '../types';
-import { Save, X, Edit, Search } from 'lucide-react';
+import { Save, X, Edit, Search, Download } from 'lucide-react';
 
 interface AdminPanelProps {
   items: PortfolioItem[];
@@ -40,17 +40,36 @@ export const AdminPanel: React.FC<AdminPanelProps> = ({ items, onUpdateItem, onE
     }
   };
 
+  const handleExport = () => {
+    const dataStr = JSON.stringify(items, null, 2);
+    navigator.clipboard.writeText(dataStr).then(() => {
+      alert('所有作品資料已複製到剪貼簿！\n\n您可以將其貼上到 data.ts 中，以永久更新程式碼至最新狀態。');
+    }).catch(err => {
+      console.error('Failed to copy: ', err);
+      alert('複製失敗，請手動打開控制台查看資料。');
+      console.log(dataStr);
+    });
+  };
+
   return (
     <div className="min-h-screen bg-slate-100 p-4 sm:p-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center mb-6">
           <h1 className="text-2xl font-bold text-slate-900">管理後台</h1>
-          <button 
-            onClick={onExit}
-            className="px-4 py-2 bg-white text-slate-600 rounded-lg shadow-sm hover:bg-slate-50 border border-slate-200"
-          >
-            返回前台
-          </button>
+          <div className="flex gap-3">
+             <button 
+              onClick={handleExport}
+              className="px-4 py-2 bg-indigo-600 text-white rounded-lg shadow-sm hover:bg-indigo-700 flex items-center gap-2 transition-colors"
+            >
+              <Download size={16} /> 匯出資料碼
+            </button>
+            <button 
+              onClick={onExit}
+              className="px-4 py-2 bg-white text-slate-600 rounded-lg shadow-sm hover:bg-slate-50 border border-slate-200"
+            >
+              返回前台
+            </button>
+          </div>
         </div>
 
         {/* Search */}
